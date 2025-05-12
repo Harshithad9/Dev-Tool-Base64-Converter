@@ -79,3 +79,12 @@ URL encoding/decoding
 History of recent conversions
 
 Browser extension version
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Harshithad9/Single-Page-Explainer.git
+## Live Demo
+
+➡️ [View the live timeline here](https://single-page-explainer.vercel.app
+)
+
