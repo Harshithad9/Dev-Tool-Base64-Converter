@@ -1,90 +1,91 @@
-# Dev-Tool-Base64-Converter
-A lightweight, browser-based utility for encoding and decoding Base64 strings with developer-friendly features.
+# 🔧 Dev-Tool-Base64-Converter
 
-Features
-🔄 Two-way conversion: Encode text to Base64 or decode Base64 back to text
+A lightweight, browser-based utility for effortlessly encoding and decoding Base64 strings — tailored for developers.
 
-🌙 Dark/Light mode: Toggle between themes for comfortable viewing
+## ✨ Features
 
-📋 Copy to clipboard: One-click copy functionality
+* 🔄 **Two-way Conversion**
+  Encode text to Base64 or decode Base64 back to plain text.
 
-💾 Local storage: Remembers your last conversion and theme preference
+* 🌙 **Dark/Light Mode**
+  Toggle themes for a comfortable viewing experience.
 
-⌨️ Keyboard shortcuts: Quick actions without reaching for the mouse
+* 📋 **Copy to Clipboard**
+  One-click copy functionality for both input and output.
 
-🚨 Error handling: Clear messages for invalid Base64 input
+* 💾 **Local Storage Support**
+  Remembers your last conversion and theme preference.
 
-🏗️ Developer-focused: Handles code snippets, special characters, and emojis
+* ⌨️ **Keyboard Shortcuts**
+  Perform actions quickly without using the mouse.
 
-How to Use
-Encode to Base64:
+* 🚨 **Smart Error Handling**
+  Clear, helpful messages for invalid input.
 
-Type or paste your text in the input area
+* 🏗️ **Built for Developers**
+  Handles special characters, code snippets, emojis, and more.
 
-Click "Encode to Base64" or press Ctrl+E
+---
 
-The Base64 result will appear in the output area
+## 🛠️ How to Use
 
-Decode from Base64:
+### 🔐 Encode to Base64
 
-Type or paste your Base64 string in the input area
+1. Type or paste your text in the input area.
+2. Click **“Encode to Base64”** or press `Ctrl + E`.
+3. The encoded result will appear in the output area.
 
-Click "Decode from Base64" or press Ctrl+D
+### 🔓 Decode from Base64
 
-The decoded text will appear in the output area
+1. Paste your Base64 string in the input area.
+2. Click **“Decode from Base64”** or press `Ctrl + D`.
+3. View the decoded plain text in the output area.
 
-Additional Functions:
+### 🔧 Additional Actions
 
-Clear All: Reset both input and output fields (Ctrl+Shift+C)
+* **Clear All** – Reset all fields: `Ctrl + Shift + C`
+* **Copy** – Use the copy button next to any text area
+* **Toggle Theme** – Click the 🌙/☀️ icon to switch between dark and light modes
 
-Copy: Click the copy button next to any textarea to copy its contents
+---
 
-Theme Toggle: Click the moon/sun icon to switch between dark/light mode
+## ⌨️ Keyboard Shortcuts
 
-Keyboard Shortcuts
-Shortcut	Action
-Ctrl+E	Encode to Base64
-Ctrl+D	Decode from Base64
-Ctrl+Shift+C	Clear all fields
-Technical Details
-Pure HTML/CSS/JavaScript - no dependencies
+| Shortcut           | Action             |
+| ------------------ | ------------------ |
+| `Ctrl + E`         | Encode to Base64   |
+| `Ctrl + D`         | Decode from Base64 |
+| `Ctrl + Shift + C` | Clear all fields   |
 
-Works offline after initial load
+---
 
-All processing happens client-side (no data sent to servers)
+## ⚙️ Technical Details
 
-Uses btoa(), atob(), and URI component encoding for full Unicode support
+* 🧱 **Pure HTML, CSS, and JavaScript** — No external libraries
+* 🖥️ **Fully Offline** — Works after the first load
+* 🔐 **Secure** — All processing happens in-browser, no data is sent to any server
+* 🌍 **Unicode Safe** — Uses `btoa()`, `atob()`, and URI encoding for full Unicode support
+* 📱 **Responsive Design** — Works on both desktop and mobile
 
-Responsive design works on desktop and mobile
+---
 
-Try It Out
-Simply open the index.html file in any modern browser. No installation required!
+## 🚀 Try It Out
 
-Sample Inputs to Try
-Check out the sample_inputs.md file for fun test cases including:
+### 👉 [Live Demo](https://single-page-explainer.vercel.app)
 
-Code snippets with emojis
 
-ASCII art
+## 🛠️ Future Enhancements
 
-Developer jokes
+* 📁 File → Base64 Conversion
+* 🌐 URL Encoding/Decoding
+* 📜 Conversion History
+* 🧩 Browser Extension
 
-Secret messages
+---
 
-Future Enhancements
-File to Base64 conversion
+## 📦 Getting Started
 
-URL encoding/decoding
+```bash
+git clone https://github.com/Harshithad9/Single-Page-Explainer.git
 
-History of recent conversions
-
-Browser extension version
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Harshithad9/Single-Page-Explainer.git
-## Live Demo
-
-➡️ [View the live timeline here](https://single-page-explainer.vercel.app
-)
 
