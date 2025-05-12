@@ -86,6 +86,6 @@ A lightweight, browser-based utility for effortlessly encoding and decoding Base
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/Harshithad9/Single-Page-Explainer.git
+git clone https://github.com/Harshithad9/Dev-Tool-Base64-Converter.git
 
 
